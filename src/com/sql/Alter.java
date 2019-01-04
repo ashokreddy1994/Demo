@@ -15,6 +15,7 @@ public class Alter {
 		//st.executeUpdate(q);
 	//	String q1 ="insert into mindq values(2,'veena','reddy','ppl',490,'guntur')";
 	//	st.executeUpdate(q1);
+		System.out.println("ashok");
 		String q2="select * from mindq";
 		ResultSet rs=st.executeQuery(q2);
 		while(rs.next())
